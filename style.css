@@ -7,27 +7,42 @@
     margin-left: 50px;
     margin-top: 50px;
 }
-#menusuperior{
-     margin-left: 125px;
-     margin-top: 75px;
-}
-#texto_menusuperior{
-    margin-left: 150px;
-    margin-top: 25px;
-}
+
 #teste-menusuperior{
-    background-image: url(imagens/fundo-menusuperior.svg);
-    color: aliceblue;
+    margin-left: 40%;
+    margin-top: 1%;
 }
 #menuinformacional{
-    background-color: #EAECE5;
+    
+    margin: 2% 0% 4% 0%;
+    background-color: #55555459;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
+    
 }
+a{
+    background-color:#EAECE5;
+    color: black;
+    border: solid black;
+    border-radius: 20px;
+    width: 50%;
+    margin: 5%;
+    margin-left: 20%;
+}
+
+a:hover{
+    background-color: #55555459;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0d2b147e;
+    transition-duration: 1s;
+}
+    
+
 .icone{
-    margin: 25px 0px 20px 25px;
-    padding: 10px;
+    padding: 5%;
+
 }
 #secaovideo{
     display: grid;
@@ -44,7 +59,7 @@
     
 }
 #video{
-    margin:  50px 25px 50px 100px;
+    margin:  20px 20px 50px 10px;
 }
 #carrocel{
     background-color: #247BA0;
